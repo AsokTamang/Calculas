@@ -23,5 +23,5 @@ f_calculation = x ** 2
 f_new_calculations =lambdify(x, f_calculation,'numpy')  #taking x input for f_calculation using module numpy
 print(f_new_calculations(a_array))
 
-dfdx_symb = diff(f_calculation,x)
+dfdx_symb = diff(f_calculation,x)  #calculating the derivative using symbolic method
 
