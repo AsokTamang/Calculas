@@ -14,3 +14,5 @@ print(expanded)
 
 factorised = factor(expanded)
 print(factorised)
+
+expression.evalf(subs={x:1,y:2})  #here we are substituting the value of x and y with 1 and 2 respectively.
