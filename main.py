@@ -24,4 +24,4 @@ f_new_calculations =lambdify(x, f_calculation,'numpy')  #taking x input for f_ca
 print(f_new_calculations(a_array))
 
 dfdx_symb = diff(f_calculation,x)
-dfdx_sym
+
